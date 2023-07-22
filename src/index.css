@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    text-align:center;
+    color: grey;
+    background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  width: 960px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 4em;
+  color:blue;
+}
+button{
+  margin: 0 10px;
+  background:transparent;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  color:grey ;
+  font-size: 13px;
+}
+button:hover{
+  color:rgb(240, 52, 199);
+  border:3px solid rgb(240, 52, 199)
+}
+.content{
+  text-align: left;
+}
+.card{
+    padding: 8px 16px;
+    background: #1b1b1b;
+    margin: 16px 0;
+    border-radius: 20px;
+}
+.card p{
+  margin:6px 0;
+  color: white;
+}
+.card h3{
+  margin: 10px 0;
+  color: rgb(49, 49, 231);
+}
+
+button:disabled{
+  opacity: 0.2;
+  cursor: not-allowed;
+}
